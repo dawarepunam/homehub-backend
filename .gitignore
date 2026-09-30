@@ -129,3 +129,20 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+# Local helper scripts
+add_property.js
+check-perms.js
+check-promotions.js
+check-public-perms.js
+check-up-config.js
+check_users.js
+fix-email-template.js
+fix-forgot-password-perms.js
+fix-reset-url-lan.js
+setup-payment-perms.js
+setup-promotion-perms.js
+updateFooter.js
+
+# Backup files
+*.bak
