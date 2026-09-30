@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "Brand": {
+      "type": "string"
+    },
+    "Search": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OwnerProfileMenu": {
+      "type": "component",
+      "component": "navigation.owner-profile-menu-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

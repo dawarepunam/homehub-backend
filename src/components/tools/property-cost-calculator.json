@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_tools_property_cost_calculators",
+  "info": {
+    "displayName": "PropertyCostCalculator"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "PropertyPriceLabel": {
+      "type": "string"
+    },
+    "StampDutyLabel": {
+      "type": "string"
+    },
+    "RegistrationLabel": {
+      "type": "string"
+    },
+    "GSTLabel": {
+      "type": "string"
+    },
+    "OtherChargesLabel": {
+      "type": "string"
+    },
+    "CalculateButtonText": {
+      "type": "string"
+    },
+    "PropertyPriceResultLabel": {
+      "type": "string"
+    },
+    "StampDutyResultLabel": {
+      "type": "string"
+    },
+    "RegistrationResultLabel": {
+      "type": "string"
+    },
+    "GSTResultLabel": {
+      "type": "string"
+    },
+    "OtherChargesResultLabel": {
+      "type": "string"
+    },
+    "TotalCostLabel": {
+      "type": "string"
+    },
+    "ResultDescription": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

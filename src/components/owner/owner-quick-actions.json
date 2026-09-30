@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_owner_owner_quick_actions",
+  "info": {
+    "displayName": "OwnerQuickAction"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "IsHighlighted": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

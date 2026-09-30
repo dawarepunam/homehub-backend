@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_owner_owner_nav_items",
+  "info": {
+    "displayName": "OwnerNavItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "OwnerDropdownItem": {
+      "type": "component",
+      "component": "owner.owner-dropdown-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

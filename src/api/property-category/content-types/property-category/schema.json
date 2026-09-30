@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_categories",
+  "info": {
+    "singularName": "property-category",
+    "pluralName": "property-categories",
+    "displayName": "Property Search Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Residential",
+        "Commercial",
+        "Industrial"
+      ]
+    },
+    "PropertyTypes": {
+      "type": "json"
+    }
+  }
+}

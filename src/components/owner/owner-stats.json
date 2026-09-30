@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_owner_owner_stats",
+  "info": {
+    "displayName": "OwnerStats"
+  },
+  "options": {},
+  "attributes": {
+    "PropertiesLabel": {
+      "type": "string"
+    },
+    "ViewsLabel": {
+      "type": "string"
+    },
+    "EnquiriesLabel": {
+      "type": "string"
+    },
+    "SiteVisitsLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

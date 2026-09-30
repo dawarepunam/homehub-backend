@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_tools_emi_calculators",
+  "info": {
+    "displayName": "EMICalculator"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "PropertyPriceLabel": {
+      "type": "string"
+    },
+    "DownPaymentLabel": {
+      "type": "string"
+    },
+    "LoanAmountLabel": {
+      "type": "string"
+    },
+    "InterestRateLabel": {
+      "type": "string"
+    },
+    "LoanTenureLabel": {
+      "type": "string"
+    },
+    "CalculateButtonText": {
+      "type": "string"
+    },
+    "MonthlyEMILabel": {
+      "type": "string"
+    },
+    "TotalInterestLabel": {
+      "type": "string"
+    },
+    "TotalPaymentLabel": {
+      "type": "string"
+    },
+    "LoanSummaryTitle": {
+      "type": "string"
+    },
+    "PrincipalInterestTitle": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

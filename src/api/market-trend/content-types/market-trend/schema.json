@@ -1,0 +1,109 @@
+{
+  "kind": "collectionType",
+  "collectionName": "market_trends",
+  "info": {
+    "singularName": "market-trend",
+    "pluralName": "market-trends",
+    "displayName": "Market Trend",
+    "description": "Store real estate market trends for insights"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "Locality": {
+      "type": "string",
+      "required": true
+    },
+    "PropertyCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Residential",
+        "Commercial",
+        "Industrial",
+        "Agricultural",
+        "Plot"
+      ],
+      "default": "Residential"
+    },
+    "Purpose": {
+      "type": "enumeration",
+      "enum": [
+        "Sale",
+        "Rent",
+        "PG"
+      ],
+      "default": "Sale"
+    },
+    "Period": {
+      "type": "enumeration",
+      "enum": [
+        "ThreeMonths",
+        "SixMonths",
+        "OneYear"
+      ],
+      "default": "SixMonths"
+    },
+    "AveragePrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "PreviousAveragePrice": {
+      "type": "decimal"
+    },
+    "PriceChange": {
+      "type": "decimal"
+    },
+    "DemandScore": {
+      "type": "integer",
+      "min": 0,
+      "max": 100,
+      "default": 50
+    },
+    "SupplyScore": {
+      "type": "integer",
+      "min": 0,
+      "max": 100,
+      "default": 50
+    },
+    "DemandChange": {
+      "type": "decimal"
+    },
+    "SupplyChange": {
+      "type": "decimal"
+    },
+    "MarketStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Hot",
+        "Balanced",
+        "Slow"
+      ],
+      "default": "Balanced"
+    },
+    "HistoricalPrices": {
+      "type": "json"
+    },
+    "PropertyTypeTrends": {
+      "type": "json"
+    },
+    "RentalTrends": {
+      "type": "json"
+    },
+    "BuyerPreferences": {
+      "type": "json"
+    },
+    "MarketOpportunities": {
+      "type": "json"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

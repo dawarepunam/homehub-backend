@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_profile_settings",
+  "info": {
+    "displayName": "Settings"
+  },
+  "options": {},
+  "attributes": {
+    "Email_Notification": {
+      "type": "boolean"
+    },
+    "SMS_Notification": {
+      "type": "boolean"
+    },
+    "Push_Notification": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

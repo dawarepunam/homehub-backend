@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_header_menu_items",
+  "info": {
+    "displayName": "HeaderMenuItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "HasDropdown": {
+      "type": "boolean"
+    },
+    "DropdownItems": {
+      "type": "component",
+      "component": "home.header-dropdown-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

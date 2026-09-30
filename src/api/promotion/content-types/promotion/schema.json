@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion",
+    "description": "Active promotions applied to properties"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "promotionType": {
+      "type": "enumeration",
+      "enum": [
+        "boost",
+        "featured",
+        "highlight"
+      ],
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "scheduled",
+        "active",
+        "completed",
+        "cancelled",
+        "expired",
+        "pending_payment"
+      ],
+      "default": "pending_payment"
+    },
+    "startDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "durationDays": {
+      "type": "integer",
+      "default": 0
+    },
+    "creditsUsed": {
+      "type": "integer",
+      "default": 0
+    },
+    "viewsBefore": {
+      "type": "integer",
+      "default": 0
+    },
+    "viewsAfter": {
+      "type": "integer",
+      "default": 0
+    },
+    "enquiriesBefore": {
+      "type": "integer",
+      "default": 0
+    },
+    "enquiriesAfter": {
+      "type": "integer",
+      "default": 0
+    },
+    "savesBefore": {
+      "type": "integer",
+      "default": 0
+    },
+    "savesAfter": {
+      "type": "integer",
+      "default": 0
+    },
+    "callsBefore": {
+      "type": "integer",
+      "default": 0
+    },
+    "callsAfter": {
+      "type": "integer",
+      "default": 0
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "promotions"
+    },
+    "property": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::property.property",
+      "inversedBy": "promotions"
+    },
+    "payment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment.payment",
+      "inversedBy": "promotion"
+    }
+  }
+}

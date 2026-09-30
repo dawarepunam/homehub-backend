@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_navigation_menu_items",
+  "info": {
+    "displayName": "MenuItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer",
+      "default": 1
+    },
+    "HasDropdown": {
+      "type": "boolean",
+      "default": true
+    },
+    "DropdownItem": {
+      "type": "component",
+      "component": "navigation.dropdown-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

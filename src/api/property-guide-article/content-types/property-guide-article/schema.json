@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_guide_articles",
+  "info": {
+    "singularName": "property-guide-article",
+    "pluralName": "property-guide-articles",
+    "displayName": "Property Guide Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Excerpt": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": ["Buying", "Renting", "Selling", "Investing", "Legal", "Finance", "Home Improvement", "Market Trends"]
+    },
+    "IsFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "Author": {
+      "type": "string"
+    },
+    "ReadingTime": {
+      "type": "integer"
+    },
+    "Tags": {
+      "type": "json"
+    }
+  }
+}

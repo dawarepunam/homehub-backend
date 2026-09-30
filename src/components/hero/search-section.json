@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_hero_search_sections",
+  "info": {
+    "displayName": "search-section"
+  },
+  "options": {},
+  "attributes": {
+    "searchButtonText": {
+      "type": "string",
+      "default": "Search Properties"
+    },
+    "showPopularSearch": {
+      "type": "boolean",
+      "default": true
+    },
+    "showLocalities": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

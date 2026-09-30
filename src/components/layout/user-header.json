@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_layout_user_headers",
+  "info": {
+    "displayName": "User Header"
+  },
+  "options": {},
+  "attributes": {
+    "Brand": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DefaultLocation": {
+      "type": "string"
+    },
+    "MenuItem": {
+      "type": "component",
+      "component": "navigation.menu-item",
+      "repeatable": true
+    },
+    "ProfileMenu": {
+      "type": "component",
+      "component": "navigation.profile-menu-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

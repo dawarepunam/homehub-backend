@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_tools_home_affordability_calculators",
+  "info": {
+    "displayName": "HomeAffordabilityCalculator"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "MonthlyIncomeLabel": {
+      "type": "string"
+    },
+    "ExistingEMILabel": {
+      "type": "string"
+    },
+    "DownPaymentLabel": {
+      "type": "string"
+    },
+    "InterestRateLabel": {
+      "type": "string"
+    },
+    "LoanTenureLabel": {
+      "type": "string"
+    },
+    "CalculateButtonText": {
+      "type": "string"
+    },
+    "HomeBudgetLabel": {
+      "type": "string"
+    },
+    "EstimatedLoanLabel": {
+      "type": "string"
+    },
+    "AffordableEMILabel": {
+      "type": "string"
+    },
+    "RecommendedBudgetLabel": {
+      "type": "string"
+    },
+    "ResultDescription": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "Notification",
+    "description": "User notifications"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Enquiry",
+        "Site Visit",
+        "Property",
+        "System"
+      ]
+    },
+    "IsRead": {
+      "type": "boolean",
+      "default": false
+    },
+    "Link": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "property": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::property.property"
+    },
+    "enquiry": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::enquiry.enquiry"
+    }
+  }
+}
+

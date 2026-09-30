@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_site_settings",
+  "info": {
+    "singularName": "user-site-setting",
+    "pluralName": "user-site-settings",
+    "displayName": "user site setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserHeader": {
+      "type": "component",
+      "component": "layout.user-header",
+      "repeatable": false
+    },
+    "HeroSection": {
+      "type": "component",
+      "component": "hero.hero-section",
+      "repeatable": true
+    },
+    "SearchSection": {
+      "type": "component",
+      "component": "hero.search-section",
+      "repeatable": true
+    },
+    "SearchTabs": {
+      "type": "component",
+      "component": "hero.search-tab",
+      "repeatable": true
+    },
+    "PopularSearches": {
+      "type": "component",
+      "component": "hero.popular-search",
+      "repeatable": true
+    },
+    "Footer": {
+      "type": "component",
+      "component": "home.footer",
+      "repeatable": false
+    }
+  }
+}

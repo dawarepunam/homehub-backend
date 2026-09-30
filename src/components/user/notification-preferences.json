@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_user_notification_preferences",
+  "info": {
+    "displayName": "Notification Preferences"
+  },
+  "options": {},
+  "attributes": {
+    "EmailNotifications": {
+      "type": "boolean"
+    },
+    "PropertyAlerts": {
+      "type": "boolean"
+    },
+    "NewPropertyAlerts": {
+      "type": "boolean"
+    },
+    "MarketingNotifications": {
+      "type": "boolean"
+    },
+    "EnquiryUpdates": {
+      "type": "boolean"
+    },
+    "DealUpdates": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

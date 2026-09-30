@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_home_headers",
+  "info": {
+    "displayName": "HomeHeader"
+  },
+  "options": {},
+  "attributes": {
+    "Brand": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "Tagline": {
+      "type": "string"
+    },
+    "MenuItems": {
+      "type": "component",
+      "component": "home.header-menu-item",
+      "repeatable": true
+    },
+    "HeaderActions": {
+      "type": "component",
+      "component": "home.header-action",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

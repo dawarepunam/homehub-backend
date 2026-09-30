@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_owner_owner_recent_activities",
+  "info": {
+    "displayName": "OwnerRecentActivity"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "ActivityType": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

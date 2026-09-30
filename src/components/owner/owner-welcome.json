@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_owner_owner_welcomes",
+  "info": {
+    "displayName": "OwnerWelcome"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "OwnerNameLabel": {
+      "type": "string"
+    },
+    "OwnerRoleLabel": {
+      "type": "string"
+    },
+    "PropertyCountLabel": {
+      "type": "string"
+    },
+    "EnquiryCountLabel": {
+      "type": "string"
+    },
+    "ViewCountLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

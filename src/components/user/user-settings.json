@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_user_user_settings",
+  "info": {
+    "displayName": "User Settings"
+  },
+  "options": {},
+  "attributes": {
+    "Language": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Marathi",
+        "Hindi"
+      ]
+    },
+    "Currency": {
+      "type": "enumeration",
+      "enum": [
+        "INR",
+        "USD"
+      ]
+    },
+    "DarkMode": {
+      "type": "boolean"
+    },
+    "SaveSearchHistory": {
+      "type": "boolean"
+    },
+    "ShowRecentlyViewed": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

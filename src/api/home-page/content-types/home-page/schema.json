@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "component": "home.home-header",
+      "repeatable": false
+    },
+    "Hero": {
+      "type": "component",
+      "component": "home.home-hero",
+      "repeatable": false
+    },
+    "PopularLocations": {
+      "type": "component",
+      "component": "home.popular-locations",
+      "repeatable": true
+    },
+    "PropertyCategories": {
+      "type": "component",
+      "component": "home.property-categories",
+      "repeatable": false
+    },
+    "FeaturedProperties": {
+      "type": "component",
+      "component": "property.feature",
+      "repeatable": false
+    },
+    "AdviceTools": {
+      "type": "component",
+      "component": "home.adviced-tools",
+      "repeatable": true
+    },
+    "WhyChooseHomeHub": {
+      "type": "component",
+      "component": "home.why-choose-home-hub",
+      "repeatable": false
+    },
+    "PropertyGuides": {
+      "type": "component",
+      "component": "home.property-guide",
+      "repeatable": true
+    },
+    "Footer": {
+      "type": "component",
+      "component": "home.footer",
+      "repeatable": false
+    }
+  }
+}

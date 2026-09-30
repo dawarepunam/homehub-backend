@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_header_dropdown_items",
+  "info": {
+    "displayName": "HeaderDropdownItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_tools_home_loan_eligibility_calculators",
+  "info": {
+    "displayName": "HomeLoanEligibilityCalculator"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "MonthlyIncomeLabel": {
+      "type": "string"
+    },
+    "ExistingEMILabel": {
+      "type": "string"
+    },
+    "InterestRateLabel": {
+      "type": "string"
+    },
+    "LoanTenureLabel": {
+      "type": "string"
+    },
+    "CalculateButtonText": {
+      "type": "string"
+    },
+    "EligibleLoanLabel": {
+      "type": "string"
+    },
+    "MaximumEMILabel": {
+      "type": "string"
+    },
+    "PropertyBudgetLabel": {
+      "type": "string"
+    },
+    "ResultDescription": {
+      "type": "string"
+    },
+    "DownPaymentLabel": {
+      "type": "string",
+      "default": "Down Payment / Savings"
+    }
+  },
+  "config": {}
+}

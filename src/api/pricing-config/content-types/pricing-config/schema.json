@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_configs",
+  "info": {
+    "singularName": "pricing-config",
+    "pluralName": "pricing-configs",
+    "displayName": "PricingConfig",
+    "description": "Global pricing configuration for promotions and subscriptions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subscriptionPlans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.subscription-plan"
+    },
+    "promotionPlans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotions.promotion-plan"
+    },
+    "gstPercentage": {
+      "type": "decimal",
+      "default": 18
+    }
+  }
+}

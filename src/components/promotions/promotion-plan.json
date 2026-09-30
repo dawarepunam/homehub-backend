@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_promotions_promotion_plans",
+  "info": {
+    "displayName": "PromotionPlan",
+    "description": "Available promotion packages (e.g. 7-day boost)"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "promotionType": {
+      "type": "enumeration",
+      "enum": [
+        "boost",
+        "featured",
+        "highlight"
+      ],
+      "required": true
+    },
+    "durationDays": {
+      "type": "integer",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "creditsRequired": {
+      "type": "integer",
+      "default": 1
+    },
+    "isRecommended": {
+      "type": "boolean",
+      "default": false
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "benefits": {
+      "type": "text"
+    }
+  }
+}

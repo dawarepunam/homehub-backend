@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_owner_owner_headers",
+  "info": {
+    "displayName": "OwnerHeader"
+  },
+  "options": {},
+  "attributes": {
+    "Brand": {
+      "type": "string"
+    },
+    "Tagline": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "OwnerName": {
+      "type": "string"
+    },
+    "OwnerRole": {
+      "type": "string"
+    },
+    "OwnerNavItem": {
+      "type": "component",
+      "component": "owner.owner-nav-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

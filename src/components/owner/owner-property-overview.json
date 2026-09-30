@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_owner_owner_property_overviews",
+  "info": {
+    "displayName": "OwnerPropertyOverview"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ViewAllText": {
+      "type": "string"
+    },
+    "ViewAllUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

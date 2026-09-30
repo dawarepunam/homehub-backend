@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_home_home_searches",
+  "info": {
+    "displayName": "HomeSearch"
+  },
+  "options": {},
+  "attributes": {
+    "Purpose": {
+      "type": "enumeration",
+      "default": "Buy",
+      "enum": [
+        "Buy",
+        "Rent",
+        "Commercial"
+      ]
+    },
+    "LocationPlaceholder": {
+      "type": "string"
+    },
+    "PropertyTypePlaceholder": {
+      "type": "string"
+    },
+    "BudgetPlaceholder": {
+      "type": "string"
+    },
+    "SearchButtonText": {
+      "type": "string"
+    },
+    "AdvancedSearchText": {
+      "type": "string"
+    },
+    "SearchIcon": {
+      "type": "string",
+      "default": "search"
+    },
+    "LocationIcon": {
+      "type": "string",
+      "default": "map-pin"
+    },
+    "PropertyTypeIcon": {
+      "type": "string",
+      "default": "home"
+    },
+    "BudgetIcon": {
+      "type": "string",
+      "default": "wallet"
+    }
+  },
+  "config": {}
+}

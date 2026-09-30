@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_social_links",
+  "info": {
+    "displayName": "SocialLinks"
+  },
+  "options": {},
+  "attributes": {
+    "Platform": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_property_guides",
+  "info": {
+    "displayName": "PropertyGuide"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

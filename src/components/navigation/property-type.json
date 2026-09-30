@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navigation_property_types",
+  "info": {
+    "displayName": "PropertyType"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

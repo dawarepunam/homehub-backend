@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_property_property_overviews",
+  "info": {
+    "displayName": "Property Overview"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

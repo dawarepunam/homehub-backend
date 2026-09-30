@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_user_privacy_settings",
+  "info": {
+    "displayName": "Privacy Settings"
+  },
+  "options": {},
+  "attributes": {
+    "ProfileVisibility": {
+      "type": "boolean"
+    },
+    "PhoneNumber": {
+      "type": "boolean"
+    },
+    "EmailAddress": {
+      "type": "boolean"
+    },
+    "OwnerContact": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

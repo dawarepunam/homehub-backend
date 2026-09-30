@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_property_residential_rent_details",
+  "info": {
+    "displayName": "Property Common Details"
+  },
+  "options": {},
+  "attributes": {
+    "CarpetArea": {
+      "type": "decimal",
+      "required": true
+    },
+    "Built_upArea": {
+      "type": "decimal"
+    },
+    "PropertyAge": {
+      "type": "enumeration",
+      "enum": [
+        "New ",
+        "Years 0-1",
+        "Years 1-5",
+        "Years 5-10",
+        "Years 10+"
+      ]
+    },
+    "Facing": {
+      "type": "enumeration",
+      "enum": [
+        "East",
+        "West",
+        "North",
+        "South",
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ]
+    },
+    "AvailableForm": {
+      "type": "date",
+      "required": true
+    },
+    "Area_Unit": {
+      "type": "enumeration",
+      "enum": [
+        "Sq.ft",
+        "Sq.m",
+        "Acres",
+        "Guntha"
+      ]
+    }
+  },
+  "config": {}
+}

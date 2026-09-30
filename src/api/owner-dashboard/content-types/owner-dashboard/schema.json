@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "owner_dashboards",
+  "info": {
+    "singularName": "owner-dashboard",
+    "pluralName": "owner-dashboards",
+    "displayName": "OwnerDashboard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "component": "owner.owner-header",
+      "repeatable": false
+    },
+    "welcome": {
+      "type": "component",
+      "component": "owner.owner-welcome",
+      "repeatable": false
+    },
+    "stats": {
+      "type": "component",
+      "component": "owner.owner-stats",
+      "repeatable": false
+    },
+    "quickActions": {
+      "type": "component",
+      "component": "owner.owner-quick-actionss",
+      "repeatable": false
+    },
+    "propertyOverview": {
+      "type": "component",
+      "component": "owner.owner-property-overview",
+      "repeatable": false
+    },
+    "propertyStats": {
+      "type": "component",
+      "component": "owner.owner-property-stats",
+      "repeatable": true
+    },
+    "recentActivity": {
+      "type": "component",
+      "component": "owner.owner-recent-activity",
+      "repeatable": true
+    },
+    "Footer": {
+      "type": "component",
+      "component": "home.footer",
+      "repeatable": false
+    }
+  }
+}

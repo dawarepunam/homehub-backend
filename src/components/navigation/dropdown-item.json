@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_navigation_dropdown_items",
+  "info": {
+    "displayName": "DropdownItem"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "Purpose_type": {
+      "type": "enumeration",
+      "enum": [
+        "Buy",
+        "Rent",
+        "Sale",
+        "Lease"
+      ]
+    }
+  },
+  "config": {}
+}

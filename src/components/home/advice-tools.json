@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_home_advice_tools",
+  "info": {
+    "displayName": "AdviceTool"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "ToolType": {
+      "type": "enumeration",
+      "enum": [
+        "EMI Calculator",
+        "Home Affordability",
+        "Property Cost Calculator",
+        "Home Loan Calculator"
+      ]
+    }
+  },
+  "config": {}
+}

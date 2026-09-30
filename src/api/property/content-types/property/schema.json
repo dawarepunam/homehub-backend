@@ -1,0 +1,204 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "Property_Type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Residential",
+        "Commercial",
+        "Industrial"
+      ]
+    },
+    "Purpose": {
+      "type": "enumeration",
+      "enum": [
+        "Sale",
+        "Rent",
+        "PG"
+      ]
+    },
+    "Category": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "One BHK",
+        "Two BHK",
+        "Three BHK",
+        "Four BHK",
+        "Villa",
+        "Plot",
+        "Office",
+        "Shop",
+        "Warehouse",
+        "Factory",
+        "Land"
+      ]
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "Area": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "PinCode": {
+      "type": "integer",
+      "required": true
+    },
+    "PropertyStatus": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "ACTIVE",
+        "PENDING",
+        "DRAFT",
+        "SOLD",
+        "RENTED",
+        "INACTIVE",
+        "RESERVED"
+      ]
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PropertyImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PropertyCommonDetails": {
+      "type": "component",
+      "component": "property.residential-rent-details",
+      "repeatable": false
+    },
+    "ResidentialDetails": {
+      "type": "component",
+      "component": "property.residential-details",
+      "repeatable": false
+    },
+    "CommercialDetails": {
+      "type": "component",
+      "component": "property.commercial-details",
+      "repeatable": false
+    },
+    "IndustrialDetails": {
+      "type": "component",
+      "component": "property.industrial-details",
+      "repeatable": false
+    },
+    "Owner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "properties"
+    },
+    "PropertyOverview": {
+      "type": "component",
+      "component": "property.property-overview",
+      "repeatable": true
+    },
+    "PropertyFeatures": {
+      "type": "component",
+      "component": "property.feature",
+      "repeatable": true
+    },
+    "GoogleMapLink": {
+      "type": "string"
+    },
+    "enquiries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::enquiry.enquiry",
+      "mappedBy": "property"
+    },
+    "Price": {
+      "type": "biginteger"
+    },
+    "PriceUnits": {
+      "type": "enumeration",
+      "enum": [
+        "Lakh",
+        "Cr",
+        "/month"
+      ]
+    },
+    "IsFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "FeaturedOrder": {
+      "type": "integer"
+    },
+    "PropertyAmenities": {
+      "type": "component",
+      "component": "property.property-amenities",
+      "repeatable": false
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Locality": {
+      "type": "string"
+    },
+    "Views": {
+      "type": "integer",
+      "default": 0
+    },
+    "Saves": {
+      "type": "integer",
+      "default": 0
+    },
+    "promotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promotion.promotion",
+      "mappedBy": "property"
+    },
+    "Latitude": {
+      "type": "decimal"
+    },
+    "Longitude": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "singularName": "enquiry",
+    "pluralName": "enquiries",
+    "displayName": "enquiry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Message": {
+      "type": "text",
+      "required": true
+    },
+    "Statuss": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "New",
+        "Contacted",
+        "Site Visit",
+        "Closed",
+        "Interested",
+        "NotInterested",
+        "Follow-up Required",
+        "Site Visit Pending",
+        "Scheduled",
+        " Confirmed",
+        "Completed",
+        "Cancelled ",
+        "Rescheduled",
+        "Converted"
+      ]
+    },
+    "property": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::property.property",
+      "inversedBy": "enquiries"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "enquiries"
+    },
+    "EnquiryType": {
+      "type": "enumeration",
+      "enum": [
+        "Property Enquiry",
+        "Contact Owner",
+        "Schedule Visit"
+      ]
+    },
+    "Source": {
+      "type": "enumeration",
+      "default": "Property Page",
+      "enum": [
+        "Property Page",
+        "Search Result",
+        "Contact Owner",
+        "Site Visit"
+      ]
+    },
+    "IsRead": {
+      "type": "boolean",
+      "default": false
+    },
+    "PreferredContact": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "whatsapp",
+        "email",
+        "any"
+      ]
+    },
+    "BudgetMin": {
+      "type": "integer"
+    },
+    "BudgetMax": {
+      "type": "integer"
+    },
+    "LookingFor": {
+      "type": "enumeration",
+      "enum": [
+        "buy",
+        "rent"
+      ]
+    },
+    "MoveInTimeline": {
+      "type": "string"
+    },
+    "OwnerResponse": {
+      "type": "string"
+    },
+    "FollowUpDate": {
+      "type": "date"
+    },
+    "VisitDate": {
+      "type": "datetime"
+    },
+    "ClosedReason": {
+      "type": "string"
+    },
+    "BuyerDeleted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

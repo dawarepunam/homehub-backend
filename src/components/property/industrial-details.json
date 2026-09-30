@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_property_industrial_details",
+  "info": {
+    "displayName": "Industrial Details"
+  },
+  "options": {},
+  "attributes": {
+    "IndustrialType": {
+      "type": "enumeration",
+      "enum": [
+        "Warehouse",
+        "Factory",
+        "Industrial Shed",
+        "Industrial Land",
+        "Manufacturing Unit"
+      ]
+    },
+    "WarehouseArea": {
+      "type": "decimal"
+    },
+    "LoadingDock": {
+      "type": "boolean"
+    },
+    "PowerSupply": {
+      "type": "enumeration",
+      "enum": [
+        "Single Phase",
+        "Three Phase",
+        "High Voltage"
+      ]
+    },
+    "OfficeSpace": {
+      "type": "boolean"
+    },
+    "CraneFacility": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

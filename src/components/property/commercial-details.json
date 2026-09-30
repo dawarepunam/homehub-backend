@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_property_commercial_details",
+  "info": {
+    "displayName": "Commercial Details"
+  },
+  "options": {},
+  "attributes": {
+    "CommercialType": {
+      "type": "enumeration",
+      "enum": [
+        "Office",
+        "Shop",
+        "Showroom",
+        "Co-working Space",
+        "Commercial Land"
+      ]
+    },
+    "Washrooms": {
+      "type": "integer"
+    },
+    "Cabins": {
+      "type": "integer"
+    },
+    "MeetingRooms": {
+      "type": "integer"
+    },
+    "Pantry": {
+      "type": "boolean"
+    },
+    "ReceptionArea": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

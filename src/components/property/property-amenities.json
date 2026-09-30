@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_property_property_amenities",
+  "info": {
+    "displayName": "Property Amenities"
+  },
+  "options": {},
+  "attributes": {
+    "Parking": {
+      "type": "boolean"
+    },
+    "Lift": {
+      "type": "boolean"
+    },
+    "Security": {
+      "type": "boolean"
+    },
+    "CCTV": {
+      "type": "boolean"
+    },
+    "PowerBackup": {
+      "type": "boolean"
+    },
+    "Gym": {
+      "type": "boolean"
+    },
+    "SwimmingPool": {
+      "type": "boolean"
+    },
+    "Garden": {
+      "type": "boolean"
+    },
+    "ClubHouse": {
+      "type": "boolean"
+    },
+    "WaterSupply": {
+      "type": "boolean"
+    },
+    "FireSafety": {
+      "type": "boolean"
+    },
+    "VisitorParking": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

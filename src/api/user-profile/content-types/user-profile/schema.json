@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_profiles",
+  "info": {
+    "singularName": "user-profile",
+    "pluralName": "user-profiles",
+    "displayName": "User Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProfileDetails": {
+      "type": "component",
+      "component": "profile.profile-details",
+      "repeatable": false
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "Settings": {
+      "type": "component",
+      "component": "profile.settings",
+      "repeatable": false
+    },
+    "Wishlist": {
+      "type": "component",
+      "component": "profile.wishlist",
+      "repeatable": false
+    },
+    "UserSettings": {
+      "type": "component",
+      "component": "user.user-settings",
+      "repeatable": false
+    },
+    "NotificationPreferences": {
+      "type": "component",
+      "component": "user.notification-preferences",
+      "repeatable": false
+    },
+    "PrivacySettings": {
+      "type": "component",
+      "component": "user.privacy-settings",
+      "repeatable": false
+    },
+    "PropertyPreferences": {
+      "type": "component",
+      "component": "user.property-preferences",
+      "repeatable": false
+    }
+  }
+}

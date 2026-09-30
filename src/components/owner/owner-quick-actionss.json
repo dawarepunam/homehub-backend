@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_owner_owner_quick_actionsses",
+  "info": {
+    "displayName": "OwnerQuickActionss"
+  },
+  "options": {},
+  "attributes": {
+    "OwnerQuickAction": {
+      "type": "component",
+      "component": "owner.owner-quick-actions",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

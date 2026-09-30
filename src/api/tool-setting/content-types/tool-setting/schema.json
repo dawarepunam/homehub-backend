@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "tool_settings",
+  "info": {
+    "singularName": "tool-setting",
+    "pluralName": "tool-settings",
+    "displayName": "ToolSetting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EMICalculator": {
+      "type": "component",
+      "component": "tools.emi-calculator",
+      "repeatable": false
+    },
+    "HomeAffordability": {
+      "type": "component",
+      "component": "tools.home-affordability-calculator",
+      "repeatable": false
+    },
+    "PropertyCostCalculator": {
+      "type": "component",
+      "component": "tools.property-cost-calculator",
+      "repeatable": false
+    },
+    "HomeLoanEligibilityCalculator": {
+      "type": "component",
+      "component": "tools.home-loan-eligibility-calculator",
+      "repeatable": false
+    }
+  }
+}

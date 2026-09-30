@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_property_category_items",
+  "info": {
+    "displayName": "PropertyCategoryItem"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "PropertyTypes": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_views",
+  "info": {
+    "singularName": "property-view",
+    "pluralName": "property-views",
+    "displayName": "Property View",
+    "description": "Tracks when a buyer views a property"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "viewer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "property": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::property.property"
+    }
+  }
+}

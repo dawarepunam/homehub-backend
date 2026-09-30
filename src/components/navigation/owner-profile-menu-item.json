@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navigation_owner_profile_menu_items",
+  "info": {
+    "displayName": "OwnerProfileMenuItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

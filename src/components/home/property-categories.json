@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_property_categories",
+  "info": {
+    "displayName": "PropertyCategories"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "PropertyCategories": {
+      "type": "component",
+      "component": "home.property-category-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

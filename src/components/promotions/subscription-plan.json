@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_promotions_subscription_plans",
+  "info": {
+    "displayName": "SubscriptionPlan",
+    "description": "A tiered subscription plan for owners"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "billingCycle": {
+      "type": "enumeration",
+      "enum": [
+        "monthly",
+        "yearly"
+      ],
+      "default": "monthly"
+    },
+    "boostCredits": {
+      "type": "integer",
+      "default": 0
+    },
+    "featuredCredits": {
+      "type": "integer",
+      "default": 0
+    },
+    "highlightCredits": {
+      "type": "integer",
+      "default": 0
+    },
+    "advancedAnalytics": {
+      "type": "boolean",
+      "default": false
+    },
+    "priorityVisibility": {
+      "type": "boolean",
+      "default": false
+    },
+    "smartRecommendations": {
+      "type": "boolean",
+      "default": false
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "benefits": {
+      "type": "text"
+    },
+    "maxActivePromotions": {
+      "type": "integer",
+      "default": 5
+    }
+  }
+}

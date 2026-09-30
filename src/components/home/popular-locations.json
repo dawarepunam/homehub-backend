@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_popular_locations",
+  "info": {
+    "displayName": "PopularLocations"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "PopularLocationItem": {
+      "type": "component",
+      "component": "home.popular-location-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

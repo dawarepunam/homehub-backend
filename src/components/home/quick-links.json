@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_quick_links",
+  "info": {
+    "displayName": "QuickLinks"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

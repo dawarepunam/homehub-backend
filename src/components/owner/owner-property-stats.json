@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_owner_owner_property_stats",
+  "info": {
+    "displayName": "OwnerPropertyStats"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_why_choose_benefits",
+  "info": {
+    "displayName": "WhyChooseBenefit"
+  },
+  "options": {},
+  "attributes": {
+    "ShortTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_navigation_profile_menu_items",
+  "info": {
+    "displayName": "Profile Menu Item"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

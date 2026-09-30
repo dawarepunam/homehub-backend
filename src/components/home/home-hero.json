@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_home_home_heroes",
+  "info": {
+    "displayName": "HomeHero"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MobileBackground": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Search": {
+      "type": "component",
+      "component": "home.home-search",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

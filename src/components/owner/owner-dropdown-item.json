@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_owner_owner_dropdown_items",
+  "info": {
+    "displayName": "OwnerDropdownItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "DisplayOrder": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

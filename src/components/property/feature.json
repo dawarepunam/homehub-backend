@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_property_features",
+  "info": {
+    "displayName": "FeaturedProperties"
+  },
+  "options": {},
+  "attributes": {
+    "SectionLabel": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "ViewAllText": {
+      "type": "string"
+    },
+    "ViewAllLink": {
+      "type": "string"
+    },
+    "properties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::property.property"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,74 @@
+{
+  "collectionName": "components_profile_profile_details",
+  "info": {
+    "displayName": "Profile Details"
+  },
+  "options": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Other"
+      ]
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "string"
+    },
+    "ProfileImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bio": {
+      "type": "text"
+    },
+    "Occupation": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "IsVerified": {
+      "type": "boolean"
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

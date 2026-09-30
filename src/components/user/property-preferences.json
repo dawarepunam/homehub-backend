@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_user_property_preferences",
+  "info": {
+    "displayName": "Property Preferences"
+  },
+  "options": {},
+  "attributes": {
+    "PropertyType": {
+      "type": "enumeration",
+      "enum": [
+        "Residential",
+        "Commercial",
+        "Industrial"
+      ]
+    },
+    "Purpose": {
+      "type": "enumeration",
+      "enum": [
+        "Buy",
+        "Rent",
+        "Sale"
+      ]
+    },
+    "PreferredCity": {
+      "type": "string"
+    },
+    "PreferredArea": {
+      "type": "string"
+    },
+    "PreferredCategory": {
+      "type": "string"
+    },
+    "MinimumBudget": {
+      "type": "integer"
+    },
+    "MaximumBudget": {
+      "type": "integer"
+    },
+    "BHK": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

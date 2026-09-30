@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_home_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "BrandName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "CopyrightText": {
+      "type": "string"
+    },
+    "QuickLinks": {
+      "type": "component",
+      "component": "home.quick-links",
+      "repeatable": true
+    },
+    "PropertyLinks": {
+      "type": "component",
+      "component": "home.property-links",
+      "repeatable": true
+    },
+    "SupportLinks": {
+      "type": "component",
+      "component": "home.support-links",
+      "repeatable": true
+    },
+    "SocialLinks": {
+      "type": "component",
+      "component": "home.social-links",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
