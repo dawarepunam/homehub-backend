@@ -123,6 +123,40 @@ const deniedExecutableTypes = [
   "application/x-mach-binary",
 ];
 
+// =====================================================
+// UPLOAD PROVIDER — Cloudinary (production) or local
+// =====================================================
+// Set CLOUDINARY_NAME, CLOUDINARY_KEY, CLOUDINARY_SECRET
+// on your Render environment to activate Cloudinary storage.
+// When unset, Strapi falls back to local disk (dev).
+const useCloudinary =
+  process.env.CLOUDINARY_NAME &&
+  process.env.CLOUDINARY_KEY &&
+  process.env.CLOUDINARY_SECRET;
+
+const uploadConfig = useCloudinary
+  ? {
+      provider: "cloudinary",
+      providerOptions: {
+        cloud_name: process.env.CLOUDINARY_NAME,
+        api_key: process.env.CLOUDINARY_KEY,
+        api_secret: process.env.CLOUDINARY_SECRET,
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
+      },
+    }
+  : {
+      // Local storage — used in development
+      sizeLimit: 250 * 1024 * 1024, // 250 MB
+      security: {
+        allowedTypes: allowedMediaTypes,
+        deniedTypes: deniedExecutableTypes,
+      },
+    };
+
 module.exports = () => ({
   // =====================================================
   // EMAIL CONFIGURATION
@@ -151,15 +185,10 @@ module.exports = () => ({
   },
 
   // =====================================================
-  // UPLOAD SECURITY
+  // UPLOAD CONFIGURATION
   // =====================================================
 
   upload: {
-    config: {
-      security: {
-        allowedTypes: allowedMediaTypes,
-        deniedTypes: deniedExecutableTypes,
-      },
-    },
+    config: uploadConfig,
   },
 });
